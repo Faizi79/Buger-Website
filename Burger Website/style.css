@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+:root{
+    --primary-text-color:#F64B3C;
+    --secondary-text-color:#D39670;
+  
+}
+ h1{
+    font-size: 3rem;
+ }
+ h2{
+    font-size: 2rem;
+ }
+ h3{
+    font-size: 1rem;
+ }
+ p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    /* color: var(--secondary-text-color); */
+    line-height: 1.8rem;
+ }
+ a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+ }
+ .container {
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-section) ;
+    overflow: hidden;
+ }
+ ul{
+    list-style: none;
+ }
+ li{
+    text-decoration: none;
+    padding: 20px;
+ }
+ .flex{
+    display: flex;
+ }
+ .main{
+     width: 100%;
+     height: 100vh;
+     background-image: linear-gradient(to top,rgba(0,0,0,0.5)190%, rgba(0,0,0,0.5)20%),
+     url("./assets/2882794@2x.png");
+    background-position: center;
+    background-size: cover;
+}
+.logo a img{
+    width: 50px;
+    padding: 20px;
+    /* border-radius: 50%; */
+}
+.navbar{
+    justify-content: space-between;
+    font-family: "Poppins", sans-serif;
+    font-weight:450;
+    position: sticky;
+}
+.content{
+    margin-top: 80px;
+    color: white;
+    /* top: 800px; */
+}
+.text-aera{
+    width: 60%;
+}
+.text-aera h1{
+    font-size: 91.09px;
+    font-family: "Archivo", sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.text-aera p{
+    font-size: 32.17px;
+    font-family: "Nunito",sans-serif;
+    /* text-align: justify; */
+    width: 600px;
+    margin-top: 10px;
+}
+.text-aera a{
+    margin-top: 20px;
+    padding: 20px;
+    /* border: 1px solid white; */
+    border-radius: 50px;
+    background-color: var(--primary-text-color);
+}
+
+.main-2{
+    width: 100%;
+    height: 100vh;
+    background-image:url("./assets/Group\ 2.png");
+   background-position: center;
+   background-size: cover;
+}
+.section-3{
+    width: 100%;
+    height: 100vh;
+    background-image:url("./assets/Shape3.png");
+   background-position: center;
+   background-size: cover;
+}
+.best-burgers{
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin: auto;
+    justify-content: space-between;
+}
+.burger-img{
+    width: 35%;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    border-radius: 50%;
+    background-image:url("./assets/2882865.png");
+   background-position: center;
+   background-size:contain;
+}
+.brgr-text{
+    color: white;
+    justify-content: space-around;
+}
+
+.brgr-text h1{
+    font-size: 75px;
+    font-family: "Archivo", sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.brgr-text p{
+    font-size: 29.74px;
+    font-family: "Nunito",sans-serif;
+    font-weight: 100;
+    /* text-align: justify; */
+    width: 600px;
+    margin-top: 20px;
+
+}
+.brgr-text a{
+    margin-top: 30px;
+    padding: 10px 30px 10px 30px;
+    /* padding-left:200px ; */
+    /* border: 1px solid white; */
+    border-radius: 50px;
+    background-color: white;
+    color: var(--primary-text-color);
+}
+.section-4{
+    width: 100%;
+    height: 100vh;
+    background-image:url("./assets/Group\ 4.png");
+   background-position: center;
+   background-size: cover;
+}
+.section-5{
+    width: 100%;
+    height: 100vh;
+    background-image:url("./assets/Group\ 5.png");
+   background-position: center;
+   background-size: cover;
+}
+.section-6{
+    width: 100%;
+    height: 100vh;
+    background-image:url("./assets/Group\ 7.png");
+   background-position: center;
+   background-size: cover;
+}
+.section-7{
+    width: 100%;
+    height: 100vh;
+    background-image:url("./assets/Group\ 6.png");
+   background-position: center;
+   background-size: cover;
+}
+.section-8{
+    width: 100%;
+    height: 100vh;
+    background-image:url("./assets/Group\ 8.png");
+   background-position: center;
+   background-size: cover;
+}
+.section-9{
+    width: 100%;
+    height: 100vh;
+    background-image:url("./assets/Group\ 9.png");
+   background-position: center;
+   background-size: cover;
+}
+
